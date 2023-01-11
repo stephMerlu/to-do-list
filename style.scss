@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+}
+
+.liste {
+    width: 60%;
+    margin: 15px auto;
+    padding: 5px 5px;
+    text-align: center;
+    background-color: rgb(61, 182, 223);
+
+    h1 {
+        margin-top: 10px;
+        font-family: 'Rowdies', cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    &_champs {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+    input {
+
+    width: 89%;
+    height: 25px;
+    }
+
+    i {
+        font-size: 1.4rem;
+        line-height: 25px;
+        cursor: pointer;
+    }
+
+    }
+
+    &_taches {
+        .taches {
+            display: none;
+        }
+    }
+
+}
+
+
+
